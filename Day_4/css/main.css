@@ -1,0 +1,60 @@
+:root {
+    --raisin: #2B283A;
+    --white: #fff;
+  }
+  
+  html, body {
+      margin: 0;
+      padding: 0;
+  }
+  
+  .flex {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  body {
+      height: 100vh;
+      min-width: 500px;
+      color: var(--raisin);
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  
+      font-family: 'Karla', sans-serif;
+  }
+  
+  p {    
+      background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE79 100%);
+      color: var(--raisin);
+      min-height: 50px;
+      width: 80%;
+      padding: 1em;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border-radius: 5px;
+  }
+  
+  button {
+      font-family: inherit;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+      border-radius: 5px;
+      border: none;
+      padding: 1em 2em;
+      color: var(--white);
+      background: rgba(240, 76, 110,0.7);
+      display: inline-block;
+      transition: all 250ms;
+  }
+  
+  button:hover,
+  button:focus {
+      outline: none;
+      transform: scale(1.02) translateY(5px);
+      background-image: linear-gradient(145deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+      cursor: pointer;  
+  }
+  
+  
+  
